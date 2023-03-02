@@ -22,6 +22,29 @@ public void draw(){
   
 }
 
+void keyPressed() {
+  if (key == 119)
+  {
+    connection.write('w');
+  }
+  if (key == 97)
+  {
+    connection.write('a');
+  }
+  if (key == 100)
+  {
+    connection.write('d');
+  }
+  if (key == 115)
+  {
+    connection.write('s');
+  }
+  if (key == 101)
+  {
+    connection.write('e');
+  }
+}
+
 // Use this method to add additional statements
 // to customise the GUI controls
 public void customGUI(){

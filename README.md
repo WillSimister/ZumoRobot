@@ -24,4 +24,8 @@ The main folder contents
  For Mode 3 - 
  Start the robot so it is facing forwards - touching the right hand line.
  
+ For all modes - 
+ If you would like to communicate with the Zumo robot over wifi - in the Arduino sketch - communicate over Serial1. 
+ If you would like to communicate with the Zumo robot over USB connection - in the Arduino Sketch - communicate over Serial.
+ 
  

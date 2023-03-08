@@ -19,6 +19,10 @@ The main folder contents
  
  In the Processing sketch you will need to change the following line of code so it is accessing the correct Serial Port. 
  String portName = Serial.list()[2];
+ 
+ To connect with USB - send to 'Serial'.
+ To connect with XBEE - send to Serial1'.
+ 
  By changing the number until the GUI builds, runs and connects without error. 
  
  For Mode 3 - 
@@ -27,5 +31,27 @@ The main folder contents
  For all modes - 
  If you would like to communicate with the Zumo robot over wifi - in the Arduino sketch - communicate over Serial1. 
  If you would like to communicate with the Zumo robot over USB connection - in the Arduino Sketch - communicate over Serial.
+ 
+ 
+ To use Mode 1s GUI - 
+ 
+ Press Play on the Processing IDE. 
+
+ The GUI is laid out like standard arrow keys on a keyboard. I.e. Up, Down, Left and Right.
+ Up button = forwards.
+ Down button = backwards.
+ Left button = turn left.
+ Right Button = turn right. 
+ 
+ The key presses associated are - 
+ Up - W
+ Down - S
+ Left - A
+ Right D
+ 
+ Mode 3 - GUI
+ 
+ Press play on the Processing Sketch.
+ 
  
  
